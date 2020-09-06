@@ -29,6 +29,8 @@ namespace LDAP_DotNetF
         public bool IsAuthenticated(string domain, string username, string pwd)
         {
             txtResult.Text = "";
+            txtPath.Text = "";
+            txtAttr.Text = "";
             string domainAndUsername = domain + "\\" + username;
             DirectoryEntry entry = new DirectoryEntry(_path, domainAndUsername, pwd);
             try
