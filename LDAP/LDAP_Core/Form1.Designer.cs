@@ -1,6 +1,6 @@
 ﻿namespace LDAP_Core
 {
-    partial class Form1
+    partial class frmLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -147,7 +147,7 @@
             this.chkSSL.Text = "SSL";
             this.chkSSL.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -164,7 +164,7 @@
             this.Controls.Add(this.txtDomain);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLogin);
-            this.Name = "Form1";
+            this.Name = "frmLogin";
             this.Text = "Core";
             this.ResumeLayout(false);
             this.PerformLayout();
