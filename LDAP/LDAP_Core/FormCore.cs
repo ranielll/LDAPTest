@@ -20,6 +20,7 @@ namespace LDAP_Core
 
         private void button1_Click(object sender, EventArgs e)
         {
+            txtResult.Text = "";
             using (LdapConnection testConn = new LdapConnection() { SecureSocketLayer = (chkSSL.Checked) })
             {
                 try
