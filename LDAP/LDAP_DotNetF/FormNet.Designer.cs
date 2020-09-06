@@ -30,9 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtDomain = new System.Windows.Forms.TextBox();
-            this.txtPort = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -61,35 +58,6 @@
             this.txtDomain.Name = "txtDomain";
             this.txtDomain.Size = new System.Drawing.Size(262, 26);
             this.txtDomain.TabIndex = 1;
-            // 
-            // txtPort
-            // 
-            this.txtPort.Location = new System.Drawing.Point(564, 325);
-            this.txtPort.Name = "txtPort";
-            this.txtPort.Size = new System.Drawing.Size(66, 26);
-            this.txtPort.TabIndex = 2;
-            this.txtPort.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(475, 331);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Port";
-            this.label2.Visible = false;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(665, 325);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(66, 24);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "SSL";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.Visible = false;
             // 
             // txtUser
             // 
@@ -156,7 +124,7 @@
             this.txtPath.Enabled = false;
             this.txtPath.Location = new System.Drawing.Point(132, 293);
             this.txtPath.Name = "txtPath";
-            this.txtPath.Size = new System.Drawing.Size(262, 26);
+            this.txtPath.Size = new System.Drawing.Size(673, 26);
             this.txtPath.TabIndex = 11;
             // 
             // label6
@@ -173,7 +141,7 @@
             this.txtAttr.Enabled = false;
             this.txtAttr.Location = new System.Drawing.Point(132, 325);
             this.txtAttr.Name = "txtAttr";
-            this.txtAttr.Size = new System.Drawing.Size(262, 26);
+            this.txtAttr.Size = new System.Drawing.Size(471, 26);
             this.txtAttr.TabIndex = 13;
             // 
             // label7
@@ -201,9 +169,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.txtPort);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtDomain);
             this.Controls.Add(this.label1);
             this.Name = "frmCore";
@@ -217,9 +182,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtDomain;
-        private System.Windows.Forms.TextBox txtPort;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtPassword;
