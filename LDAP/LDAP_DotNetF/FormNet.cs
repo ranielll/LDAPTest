@@ -28,6 +28,7 @@ namespace LDAP_DotNetF
 
         public bool IsAuthenticated(string domain, string username, string pwd)
         {
+            txtResult.Text = "";
             string domainAndUsername = domain + "\\" + username;
             DirectoryEntry entry = new DirectoryEntry(_path, domainAndUsername, pwd);
             try
@@ -45,6 +46,9 @@ namespace LDAP_DotNetF
 
                 _path = result.Path;
                 _filterAttribute = result.Properties["cn"][0].ToString();
+
+                txtPath.Text = _path;
+                txtAttr.Text = _filterAttribute;
 
             }
             catch (Exception ex)

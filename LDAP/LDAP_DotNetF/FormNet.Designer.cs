@@ -40,6 +40,10 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtResult = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtPath = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtAttr = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -60,7 +64,7 @@
             // 
             // txtPort
             // 
-            this.txtPort.Location = new System.Drawing.Point(227, 372);
+            this.txtPort.Location = new System.Drawing.Point(564, 325);
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(66, 26);
             this.txtPort.TabIndex = 2;
@@ -69,7 +73,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(138, 378);
+            this.label2.Location = new System.Drawing.Point(475, 331);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 20);
             this.label2.TabIndex = 2;
@@ -79,7 +83,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(328, 372);
+            this.checkBox1.Location = new System.Drawing.Point(665, 325);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(66, 24);
             this.checkBox1.TabIndex = 3;
@@ -147,11 +151,49 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Message";
             // 
+            // txtPath
+            // 
+            this.txtPath.Enabled = false;
+            this.txtPath.Location = new System.Drawing.Point(132, 293);
+            this.txtPath.Name = "txtPath";
+            this.txtPath.Size = new System.Drawing.Size(262, 26);
+            this.txtPath.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(43, 299);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(42, 20);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Path";
+            // 
+            // txtAttr
+            // 
+            this.txtAttr.Enabled = false;
+            this.txtAttr.Location = new System.Drawing.Point(132, 325);
+            this.txtAttr.Name = "txtAttr";
+            this.txtAttr.Size = new System.Drawing.Size(262, 26);
+            this.txtAttr.TabIndex = 13;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(43, 331);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(43, 20);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "User";
+            // 
             // frmCore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(878, 539);
+            this.ClientSize = new System.Drawing.Size(838, 403);
+            this.Controls.Add(this.txtAttr);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtPath);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnLogin);
@@ -185,6 +227,10 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtPath;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtAttr;
+        private System.Windows.Forms.Label label7;
     }
 }
 
