@@ -20,7 +20,6 @@ namespace LDAP_Core
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bool aaa = chkSSL.Checked;
             using (LdapConnection testConn = new LdapConnection() { SecureSocketLayer = (chkSSL.Checked) })
             {
                 try
@@ -34,10 +33,12 @@ namespace LDAP_Core
 
                     if (res)
                         txtResult.Text = "Login Success";
+                    else
+                        txtResult.Text = "Login Failed";
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    txtResult.Text = "Login Failed";
+                    txtResult.Text = "Login Failed - " + ex.Message;
                 }
             }
         }
