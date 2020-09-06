@@ -115,7 +115,7 @@
             this.txtResult.Enabled = false;
             this.txtResult.Location = new System.Drawing.Point(233, 356);
             this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(272, 31);
+            this.txtResult.Size = new System.Drawing.Size(555, 31);
             this.txtResult.TabIndex = 7;
             // 
             // txtPort
@@ -165,7 +165,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLogin);
             this.Name = "frmLogin";
-            this.Text = "Core";
+            this.Text = ".Net Core Framework (Novel.Directory.LDAP)";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDAP_Core", "LDAP_Core\LDAP_Core.csproj", "{103345F2-3ADC-4328-85A0-F9B5E6C7A9E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDAP_DotNetF", "LDAP_DotNetF\LDAP_DotNetF.csproj", "{FF8483B3-58D5-45CB-ABAF-44854DCFC130}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDAP_DotNetStandard", "LDAP_DotNetF\LDAP_DotNetStandard.csproj", "{FF8483B3-58D5-45CB-ABAF-44854DCFC130}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
