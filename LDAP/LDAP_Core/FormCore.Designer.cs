@@ -44,9 +44,9 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(393, 298);
+            this.btnLogin.Location = new System.Drawing.Point(393, 282);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(112, 34);
+            this.btnLogin.Size = new System.Drawing.Size(112, 52);
             this.btnLogin.TabIndex = 6;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;

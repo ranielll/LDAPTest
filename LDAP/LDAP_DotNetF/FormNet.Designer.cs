@@ -60,33 +60,36 @@
             // 
             // txtPort
             // 
-            this.txtPort.Location = new System.Drawing.Point(132, 84);
+            this.txtPort.Location = new System.Drawing.Point(227, 372);
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(66, 26);
             this.txtPort.TabIndex = 2;
+            this.txtPort.Visible = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(43, 90);
+            this.label2.Location = new System.Drawing.Point(138, 378);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Port";
+            this.label2.Visible = false;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(233, 84);
+            this.checkBox1.Location = new System.Drawing.Point(328, 372);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(66, 24);
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "SSL";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.Visible = false;
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(132, 130);
+            this.txtUser.Location = new System.Drawing.Point(132, 85);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(262, 26);
             this.txtUser.TabIndex = 4;
@@ -94,7 +97,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 136);
+            this.label3.Location = new System.Drawing.Point(43, 91);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 20);
             this.label3.TabIndex = 5;
@@ -102,7 +105,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(132, 182);
+            this.txtPassword.Location = new System.Drawing.Point(132, 137);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(262, 26);
@@ -111,7 +114,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(43, 188);
+            this.label4.Location = new System.Drawing.Point(43, 143);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 20);
             this.label4.TabIndex = 7;
@@ -119,7 +122,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(281, 230);
+            this.btnLogin.Location = new System.Drawing.Point(281, 185);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(113, 48);
             this.btnLogin.TabIndex = 6;
@@ -130,7 +133,7 @@
             // txtResult
             // 
             this.txtResult.Enabled = false;
-            this.txtResult.Location = new System.Drawing.Point(132, 306);
+            this.txtResult.Location = new System.Drawing.Point(132, 261);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(673, 26);
             this.txtResult.TabIndex = 7;
@@ -138,7 +141,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(43, 312);
+            this.label5.Location = new System.Drawing.Point(43, 267);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(74, 20);
             this.label5.TabIndex = 10;
